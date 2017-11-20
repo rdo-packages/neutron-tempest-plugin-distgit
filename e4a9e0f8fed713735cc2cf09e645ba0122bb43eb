@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da86d52c_6b6e70cb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 172
+      },
+      "writtenOn": "2017-11-20T10:34:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da86d52c_35bcdb6c",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 28
+      },
+      "revId": "e4a9e0f8fed713735cc2cf09e645ba0122bb43eb",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da86d52c_95e2e701",
         "filename": "openstack-neutron-tempest-plugin.spec",
         "patchSetId": 1
@@ -36,6 +60,24 @@
       "writtenOn": "2017-11-16T17:28:48Z",
       "side": 1,
       "message": "epoch is missing 2:4.0.0",
+      "revId": "e4a9e0f8fed713735cc2cf09e645ba0122bb43eb",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da86d52c_2b74789b",
+        "filename": "openstack-neutron-tempest-plugin.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 172
+      },
+      "writtenOn": "2017-11-20T10:34:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da86d52c_95e2e701",
       "revId": "e4a9e0f8fed713735cc2cf09e645ba0122bb43eb",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
