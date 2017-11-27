@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba7be1f8_bcf43988",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 104
+      },
+      "writtenOn": "2017-11-27T18:57:16Z",
+      "side": 1,
+      "message": "docs in the plugin? do we really have them? I don\u0027t see a docs job in the new repo.",
+      "revId": "754deb10c6e879888e4a749033c6f9a698301b6e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
