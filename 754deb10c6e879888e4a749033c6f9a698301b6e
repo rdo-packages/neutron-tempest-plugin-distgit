@@ -16,6 +16,24 @@
       "revId": "754deb10c6e879888e4a749033c6f9a698301b6e",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba7be1f8_82f8eee6",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-11-30T06:00:20Z",
+      "side": 1,
+      "message": "We have created doc subpackage in RDO if in future doc will be added to the project, it will directly go under that without breaking rpm build.",
+      "parentUuid": "ba7be1f8_bcf43988",
+      "revId": "754deb10c6e879888e4a749033c6f9a698301b6e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
