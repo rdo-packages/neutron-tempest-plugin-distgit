@@ -24,6 +24,9 @@ Source0:    http://tarballs.openstack.org/%{plugin}/%{plugin}-%{upstream_version
 
 BuildArch:  noarch
 
+BuildRequires:  git
+BuildRequires:  openstack-macros
+
 %description
 %{common_desc}
 
@@ -31,24 +34,28 @@ BuildArch:  noarch
 Summary: %{summary}
 %{?python_provide:%python_provide python2-%{service}-tests-tempest}
 BuildRequires:  python2-devel
-BuildRequires:  python-pbr
-BuildRequires:  python-setuptools
-BuildRequires:  git
-BuildRequires:  openstack-macros
+BuildRequires:  python2-pbr
+BuildRequires:  python2-setuptools
 
-Requires:   python-ddt >= 1.0.1
-Requires:   python-eventlet >= 0.18.2
-Requires:   python-netaddr >= 0.7.13
-Requires:   python-neutron-lib >= 1.9.0
-Requires:   python-oslo-config >= 2:4.0.0
-Requires:   python-oslo-log >= 3.22.0
-Requires:   python-oslo-serialization >= 1.10.0
-Requires:   python-oslo-utils >= 3.20.0
-Requires:   python-pbr >= 2.0
-Requires:   python-six  >= 1.9.0
-Requires:   python-tempest >= 1:16.0.0
-Requires:   python-testtools >= 1.4.0
-Requires:   python-testscenarios >= 0.4
+Requires:   python2-ddt >= 1.0.1
+Requires:   python2-eventlet >= 0.18.2
+Requires:   python2-neutron-lib >= 1.9.0
+Requires:   python2-oslo-config >= 2:4.0.0
+Requires:   python2-oslo-log >= 3.22.0
+Requires:   python2-oslo-serialization >= 2.18.0
+Requires:   python2-oslo-utils >= 3.20.0
+Requires:   python2-pbr >= 2.0
+Requires:   python2-six  >= 1.9.0
+Requires:   python2-tempest >= 1:17.1.0
+Requires:   python2-testtools >= 1.4.0
+Requires:   python2-testscenarios >= 0.4
+%if 0%{?fedora} > 0
+Requires:   python2-netaddr >= 0.7.18
+Requires:   python2-ipaddress
+%else
+Requires:   python-netaddr >= 0.7.18
+Requires:   python-ipaddress
+%endif
 
 %description -n python2-%{service}-tests-tempest
 %{common_desc}
@@ -57,8 +64,8 @@ Requires:   python-testscenarios >= 0.4
 %package -n python-%{service}-tests-tempest-doc
 Summary:        python-%{service}-tests-tempest documentation
 
-BuildRequires:  python-sphinx
-BuildRequires:  python-openstackdocstheme
+BuildRequires:  python2-sphinx
+BuildRequires:  python2-openstackdocstheme
 
 %description -n python-%{service}-tests-tempest-doc
 It contains the documentation for the Neutron tempest plugin.
@@ -74,17 +81,18 @@ BuildRequires:  python3-setuptools
 
 Requires:   python3-ddt >= 1.0.1
 Requires:   python3-eventlet >= 0.18.2
-Requires:   python3-netaddr >= 0.7.13
 Requires:   python3-neutron-lib >= 1.9.0
-Requires:   python3-oslo-config >= 4.0.0
+Requires:   python3-oslo-config >= 2:4.0.0
 Requires:   python3-oslo-log >= 3.22.0
-Requires:   python3-oslo-serialization >= 1.10.0
+Requires:   python3-oslo-serialization >= 2.18.0
 Requires:   python3-oslo-utils >= 3.20.0
 Requires:   python3-pbr >= 2.0
 Requires:   python3-six  >= 1.9.0
-Requires:   python3-tempest >= 1:16.0.0
+Requires:   python3-tempest >= 1:17.1.0
 Requires:   python3-testtools >= 1.4.0
 Requires:   python3-testscenarios >= 0.4
+Requires:   python3-ipaddress
+Requires:   python3-netaddr >= 0.7.18
 
 %description -n python3-%{service}-tests-tempest
 %{common_desc}
