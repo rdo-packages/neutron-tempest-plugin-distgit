@@ -22,6 +22,23 @@
       "revId": "f25d0cc3fc9b6ae6690d7d9ed4a4e98848ef0187",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aaa499b_7374c2ce",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 172
+      },
+      "writtenOn": "2018-02-12T13:34:18Z",
+      "side": 1,
+      "message": "nit: It would be good to keep the alphabetical order of package names where possible",
+      "revId": "f25d0cc3fc9b6ae6690d7d9ed4a4e98848ef0187",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
