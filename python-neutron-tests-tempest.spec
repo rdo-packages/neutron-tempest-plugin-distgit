@@ -1,8 +1,7 @@
 %global service neutron
 %global plugin neutron-tempest-plugin
 %global module neutron_tempest_plugin
-# FIXME(ykarel) disable doc until https://review.openstack.org/#/c/552894/ is merged
-%global with_doc 0
+%global with_doc 1
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
