@@ -34,7 +34,7 @@ BuildRequires:  openstack-macros
 Summary: %{summary}
 %{?python_provide:%python_provide python2-%{service}-tests-tempest}
 
-Obsoletes: python-neutron-tests < 12.0.0
+Obsoletes: python-neutron-tests < 1:12.0.0
 
 BuildRequires:  python2-devel
 BuildRequires:  python2-pbr
