@@ -41,24 +41,24 @@ BuildRequires:  python2-pbr
 BuildRequires:  python2-setuptools
 
 Requires:   python2-ddt >= 1.0.1
-Requires:   python2-eventlet >= 0.18.2
+Requires:   python2-eventlet >= 0.20.1
 %if 0%{?fedora} > 0
 Requires:   python2-ipaddress
-Requires:   python2-netaddr >= 0.7.18
+Requires:   python2-netaddr >= 0.7.19
 %else
 Requires:   python-ipaddress
-Requires:   python-netaddr >= 0.7.18
+Requires:   python-netaddr >= 0.7.19
 %endif
-Requires:   python2-neutron-lib >= 1.9.0
-Requires:   python2-oslo-config >= 2:4.0.0
-Requires:   python2-oslo-log >= 3.22.0
+Requires:   python2-neutron-lib >= 1.13.0
+Requires:   python2-oslo-config >= 2:5.2.0
+Requires:   python2-oslo-log >= 3.36.0
 Requires:   python2-oslo-serialization >= 2.18.0
-Requires:   python2-oslo-utils >= 3.20.0
-Requires:   python2-pbr >= 2.0
-Requires:   python2-six  >= 1.9.0
-Requires:   python2-tempest >= 1:17.1.0
-Requires:   python2-testtools >= 1.4.0
-Requires:   python2-testscenarios >= 0.4
+Requires:   python2-oslo-utils >= 3.33.0
+Requires:   python2-pbr >= 3.3.1
+Requires:   python2-six  >= 1.10.0
+Requires:   python2-tempest >= 1:18.0.0
+Requires:   python2-testtools >= 1.8.0
+Requires:   python2-testscenarios >= 0.5.0
 
 %description -n python2-%{service}-tests-tempest
 %{common_desc}
@@ -83,18 +83,18 @@ BuildRequires:  python3-pbr
 BuildRequires:  python3-setuptools
 
 Requires:   python3-ddt >= 1.0.1
-Requires:   python3-eventlet >= 0.18.2
-Requires:   python3-neutron-lib >= 1.9.0
-Requires:   python3-netaddr >= 0.7.18
-Requires:   python3-oslo-config >= 2:4.0.0
-Requires:   python3-oslo-log >= 3.22.0
+Requires:   python3-eventlet >= 0.20.1
+Requires:   python3-neutron-lib >= 1.13.0
+Requires:   python3-netaddr >= 0.7.19
+Requires:   python3-oslo-config >= 2:5.2.0
+Requires:   python3-oslo-log >= 3.36.0
 Requires:   python3-oslo-serialization >= 2.18.0
-Requires:   python3-oslo-utils >= 3.20.0
-Requires:   python3-pbr >= 2.0
-Requires:   python3-six  >= 1.9.0
-Requires:   python3-tempest >= 1:17.1.0
-Requires:   python3-testtools >= 1.4.0
-Requires:   python3-testscenarios >= 0.4
+Requires:   python3-oslo-utils >= 3.33.0
+Requires:   python3-pbr >= 3.3.1
+Requires:   python3-six  >= 1.10.0
+Requires:   python3-tempest >= 1:18.0.0
+Requires:   python3-testtools >= 1.8.0
+Requires:   python3-testscenarios >= 0.5.0
 
 %description -n python3-%{service}-tests-tempest
 %{common_desc}
