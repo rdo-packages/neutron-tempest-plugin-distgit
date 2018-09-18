@@ -112,7 +112,7 @@ Requires:   python3-testscenarios >= 0.4
 %endif
 
 %prep
-%autosetup -n %{tarsources}-%{upstream_version} -S git
+%autosetup -n %{plugin}-%{upstream_version} -S git
 
 # Let's handle dependencies ourseleves
 %py_req_cleanup
