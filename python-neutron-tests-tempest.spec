@@ -14,12 +14,6 @@
 %global with_python3 1
 %endif
 
-%if 0%{?dlrn}
-%define tarsources %module
-%else
-%define tarsources %plugin
-%endif
-
 %global common_desc \
 This package contains Tempest tests to cover the Neutron project. \
 Additionally it provides a plugin to automatically load these tests into Tempest.
@@ -112,7 +106,7 @@ Requires:   python3-testscenarios >= 0.4
 %endif
 
 %prep
-%autosetup -n %{tarsources}-%{upstream_version} -S git
+%autosetup -n %{plugin}-%{upstream_version} -S git
 
 # Let's handle dependencies ourseleves
 %py_req_cleanup
