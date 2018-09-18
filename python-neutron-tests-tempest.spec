@@ -101,7 +101,11 @@ Requires:   python3-testscenarios >= 0.5.0
 %endif
 
 %prep
+%if %{upstream_version} < 0.4.0
 %autosetup -n %{module}-%{upstream_version} -S git
+%else
+%autosetup -n %{plugin}-%{upstream_version} -S git
+%endif
 
 # Let's handle dependencies ourseleves
 %py_req_cleanup
