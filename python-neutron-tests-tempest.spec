@@ -4,7 +4,7 @@
 %global with_doc 1
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
-
+#
 %if 0%{?fedora}
 %global with_python3 1
 %endif
