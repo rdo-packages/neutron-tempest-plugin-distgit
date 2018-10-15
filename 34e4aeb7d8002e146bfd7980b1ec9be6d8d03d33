@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_57995f1e",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-10-15T07:35:19Z",
+      "side": 1,
+      "message": "this is the name of the source package or main package. This should always be python-XXX. Note the actual python modules will go in the python2- or python3- subpacakges below.",
+      "range": {
+        "startLine": 26,
+        "startChar": 12,
+        "endLine": 26,
+        "endChar": 24
+      },
+      "revId": "34e4aeb7d8002e146bfd7980b1ec9be6d8d03d33",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_17a3e750",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-10-15T07:35:19Z",
+      "side": 1,
+      "message": "This would work but for consistency with the rest of packages, i\u0027d recomend to use python%{pyver} , example in https://review.rdoproject.org/r/#/c/16735/2/python-networking-ovn.spec",
+      "range": {
+        "startLine": 43,
+        "startChar": 12,
+        "endLine": 43,
+        "endChar": 24
+      },
+      "revId": "34e4aeb7d8002e146bfd7980b1ec9be6d8d03d33",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_978ff7cb",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-10-15T07:35:19Z",
+      "side": 1,
+      "message": "i\u0027d prefer python%{pyver}",
+      "range": {
+        "startLine": 45,
+        "startChar": 34,
+        "endLine": 45,
+        "endChar": 46
+      },
+      "revId": "34e4aeb7d8002e146bfd7980b1ec9be6d8d03d33",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_77bd8367",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-10-15T07:35:19Z",
+      "side": 1,
+      "message": "I\u0027d also prefer python%{pyver} for all Requires and BuildRequires for consistency.",
+      "range": {
+        "startLine": 49,
+        "startChar": 16,
+        "endLine": 49,
+        "endChar": 28
+      },
+      "revId": "34e4aeb7d8002e146bfd7980b1ec9be6d8d03d33",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_b7943be2",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-10-15T07:35:19Z",
+      "side": 1,
+      "message": "the documentation package does not depend on the python version, so let\u0027s keep it as python-%{service}-tests-tempest-doc",
+      "range": {
+        "startLine": 76,
+        "startChar": 11,
+        "endLine": 76,
+        "endChar": 24
+      },
+      "revId": "34e4aeb7d8002e146bfd7980b1ec9be6d8d03d33",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
