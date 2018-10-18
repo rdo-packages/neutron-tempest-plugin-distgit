@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_b471d4aa",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-10-18T05:57:36Z",
+      "side": 1,
+      "message": "not needed",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 22
+      },
+      "revId": "21c04871e2f48f22bbf8fd492cd346f0ffc5b60b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_946930c1",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-10-18T05:57:36Z",
+      "side": 1,
+      "message": "this was correct, so keep it as: python-neutron-tests \u003c 1:12.0.0",
+      "range": {
+        "startLine": 47,
+        "startChar": 11,
+        "endLine": 47,
+        "endChar": 19
+      },
+      "revId": "21c04871e2f48f22bbf8fd492cd346f0ffc5b60b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_74645ce4",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-10-18T05:57:36Z",
+      "side": 1,
+      "message": "replace this block with:-\n\n%if %{pyver} \u003d\u003d 2\nRequires:   python-ipaddress\nRequires:   python-netaddr \u003e\u003d 0.7.19\n%else\nRequires:   python%{pyver}-netaddr \u003e\u003d 0.7.19\n%endif",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 6
+      },
+      "revId": "21c04871e2f48f22bbf8fd492cd346f0ffc5b60b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_345ee412",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-10-18T05:57:36Z",
+      "side": 1,
+      "message": "python%{pyver}",
+      "range": {
+        "startLine": 72,
+        "startChar": 16,
+        "endLine": 72,
+        "endChar": 22
+      },
+      "revId": "21c04871e2f48f22bbf8fd492cd346f0ffc5b60b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
