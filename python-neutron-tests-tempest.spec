@@ -57,16 +57,22 @@ Requires:   python-netaddr >= 0.7.19
 %else
 Requires:   python%{pyver}-netaddr >= 0.7.19
 %endif
-Requires:   python%{pyver}-neutron-lib >= 1.13.0
+Requires:   python%{pyver}-debtcollector >= 1.2.0
+Requires:   python%{pyver}-neutron-lib >= 1.25.0
 Requires:   python%{pyver}-oslo-config >= 2:5.2.0
 Requires:   python%{pyver}-oslo-log >= 3.36.0
 Requires:   python%{pyver}-oslo-serialization >= 2.18.0
 Requires:   python%{pyver}-oslo-utils >= 3.33.0
+Requires:   python%{pyver}-paramiko >= 2.0.0
 Requires:   python%{pyver}-pbr >= 3.3.1
 Requires:   python%{pyver}-six  >= 1.10.0
 Requires:   python%{pyver}-tempest >= 1:18.0.0
 Requires:   python%{pyver}-testtools >= 1.8.0
 Requires:   python%{pyver}-testscenarios >= 0.5.0
+
+%if %{pyver} == 2
+Requires:   python-ipaddress >= 1.0.17
+%endif
 
 %description -n python%{pyver}-%{service}-tests-tempest
 %{common_desc}
