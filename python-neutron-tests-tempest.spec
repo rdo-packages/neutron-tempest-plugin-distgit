@@ -45,6 +45,9 @@ Summary: %{summary}
 
 Obsoletes: python-neutron-tests < 1:12.0.0
 
+Provides: python%{pyver}-networking-bgpvpn-tests-tempest = %{version}-%{release}
+Obsoletes: python%{pyver}-networking-bgpvpn-tests-tempest
+
 BuildRequires:  python%{pyver}-devel
 BuildRequires:  python%{pyver}-pbr
 BuildRequires:  python%{pyver}-setuptools
