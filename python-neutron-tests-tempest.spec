@@ -20,7 +20,8 @@
 
 %global common_desc \
 This package contains Tempest tests to cover the Neutron project. \
-Additionally it provides a plugin to automatically load these tests into Tempest.
+Additionally it provides a plugin to automatically load these tests into \
+Tempest.
 
 Name:       python-%{service}-tests-tempest
 Version:    XXX
@@ -44,6 +45,9 @@ Summary: %{summary}
 %{?python_provide:%python_provide python%{pyver}-%{service}-tests-tempest}
 
 Obsoletes: python-neutron-tests < 1:12.0.0
+
+Provides: python%{pyver}-networking-bgpvpn-tests-tempest = %{version}-%{release}
+Obsoletes: python%{pyver}-networking-bgpvpn-tests-tempest
 
 BuildRequires:  python%{pyver}-devel
 BuildRequires:  python%{pyver}-pbr
