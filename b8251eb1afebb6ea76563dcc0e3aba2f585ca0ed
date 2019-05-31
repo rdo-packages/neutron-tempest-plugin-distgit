@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "82e2d77e_1e92ffb4",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 6
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2019-05-31T13:37:01Z",
+      "side": 1,
+      "message": "this should be with \u003c old-pkg-last-N-V-R+1\n\nhttps://docs.fedoraproject.org/en-US/packaging-guidelines/#renaming-or-replacing-existing-packages",
+      "revId": "b8251eb1afebb6ea76563dcc0e3aba2f585ca0ed",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
