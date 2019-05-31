@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e7e3e54_11b2089d",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-05-31T11:52:22Z",
+      "side": 1,
+      "message": "Also add below because the package being removed provided it.\nProvides: python-networking-bgpvpn-tests-tempest \u003d %{version}-%{release}",
+      "revId": "26f6bc4ae2c0df3017ae785331962d0420fe76c2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
