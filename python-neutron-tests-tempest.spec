@@ -49,6 +49,10 @@ Provides: python%{pyver}-networking-bgpvpn-tests-tempest = %{version}-%{release}
 Provides: python-networking-bgpvpn-tests-tempest = %{version}-%{release}
 Obsoletes: python%{pyver}-networking-bgpvpn-tests-tempest
 
+Provides: python%{pyver}-networking-sfc-tests-tempest = %{version}-%{release}
+Provides: python-networking-sfc-tests-tempest = %{version}-%{release}
+Obsoletes: python%{pyver}-networking-sfc-tests-tempest < 9.0.0
+
 BuildRequires:  python%{pyver}-devel
 BuildRequires:  python%{pyver}-pbr
 BuildRequires:  python%{pyver}-setuptools
