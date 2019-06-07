@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "92561a12_6093e908",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-06-07T10:06:35Z",
+      "side": 1,
+      "message": "why not changed this?",
+      "range": {
+        "startLine": 53,
+        "startChar": 48,
+        "endLine": 53,
+        "endChar": 58
+      },
+      "revId": "52c70f9b2dbbb7b7604a8b8b21e54560f546a47f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
