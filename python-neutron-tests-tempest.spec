@@ -106,6 +106,11 @@ Requires:   python3-testscenarios >= 0.4
 %endif
 
 %prep
+# Remove stadium projects tests which are provided by separate packages
+rm -rf ${module}/bgpvpn
+rm -rf ${module}/sfc
+rm -rf ${module}/fwaas
+
 %autosetup -n %{plugin}-%{upstream_version} -S git
 
 # Let's handle dependencies ourseleves
