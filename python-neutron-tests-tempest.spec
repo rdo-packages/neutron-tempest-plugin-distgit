@@ -151,3 +151,4 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 * Wed Aug 22 2018 RDO <dev@lists.rdoproject.org> 0.2.0-1
 - Update to 0.2.0
 
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/neutron-tempest-plugin/commit/?id=d1020f8027d6b55bcf2fcbcbafded75bc9afc5c6
