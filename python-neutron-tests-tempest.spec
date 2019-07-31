@@ -155,3 +155,4 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %changelog
 * Mon Feb 19 2018 Chandan Kumar <chkumar@redhat.com> 0.0.1-0.1.028c312agit
 - Update to pre-release 0.0.1 (028c312ab0e32901c282c73fd402b8de874163fc)
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/neutron-tempest-plugin/commit/?id=1d90adb9c784f8f1f9f54e9167196a9874fa6b32
