@@ -1,0 +1,8 @@
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Workflow+1: Alfredo Moralejo <amoralej@redhat.com>
+Verified+2: Alfredo Moralejo <amoralej@redhat.com>
+Submitted-by: Alfredo Moralejo <amoralej@redhat.com>
+Submitted-at: Wed, 31 Jul 2019 11:38:30 +0000
+Reviewed-on: https://review.rdoproject.org/r/21605
+Project: openstack/neutron-tempest-plugin-distgit
+Branch: refs/heads/queens-rdo
