@@ -106,11 +106,6 @@ Requires:   python3-testscenarios >= 0.4
 %endif
 
 %prep
-# Remove stadium projects tests which are provided by separate packages
-rm -rf ${module}/bgpvpn
-rm -rf ${module}/sfc
-rm -rf ${module}/fwaas
-
 %autosetup -n %{plugin}-%{upstream_version} -S git
 
 # Let's handle dependencies ourseleves
@@ -141,6 +136,10 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %license LICENSE
 %doc README.rst
 %{python2_sitelib}/%{module}
+# Remove stadium projects tests which are provided by separate packages
+%exclude %{python2_sitelib}/%{module}/bgpvpn
+%exclude %{python2_sitelib}/%{module}/sfc
+%exclude %{python2_sitelib}/%{module}/fwaas
 %{python2_sitelib}/*.egg-info
 
 %if 0%{?with_python3}
@@ -148,6 +147,10 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %license LICENSE
 %doc README.rst
 %{python3_sitelib}/%{module}
+# Remove stadium projects tests which are provided by separate packages
+%exclude %{python3_sitelib}/%{module}/bgpvpn
+%exclude %{python3_sitelib}/%{module}/sfc
+%exclude %{python3_sitelib}/%{module}/fwaas
 %{python3_sitelib}/*.egg-info
 %endif
 
