@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "5d97cd42_f821be41",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2019-08-09T10:40:10Z",
+      "side": 1,
+      "message": "Needs release bump",
+      "range": {
+        "startLine": 23,
+        "startChar": 12,
+        "endLine": 23,
+        "endChar": 35
+      },
+      "revId": "16ff79256bece542df75f897bf9c25ba3d790cfb",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "22f4883f_4cb13ebe",
         "filename": "python-neutron-tests-tempest.spec",
         "patchSetId": 1
@@ -19,6 +42,23 @@
         "endLine": 142,
         "endChar": 28
       },
+      "revId": "16ff79256bece542df75f897bf9c25ba3d790cfb",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b419480f_001f7c9b",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2019-08-09T10:40:10Z",
+      "side": 1,
+      "message": "Please add a change logs",
       "revId": "16ff79256bece542df75f897bf9c25ba3d790cfb",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
