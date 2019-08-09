@@ -22,6 +22,30 @@
       "revId": "4dc089275fd2330caff4955dd739f5eb39f860b4",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0443c954_62422b87",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-08-09T09:35:16Z",
+      "side": 1,
+      "message": "it should be after %autosetup",
+      "parentUuid": "ae751561_3d732b6e",
+      "range": {
+        "startLine": 110,
+        "startChar": 0,
+        "endLine": 112,
+        "endChar": 22
+      },
+      "revId": "4dc089275fd2330caff4955dd739f5eb39f860b4",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
