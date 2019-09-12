@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "962e047e_fcc570dc",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-09-12T10:01:33Z",
+      "side": 1,
+      "message": "version",
+      "range": {
+        "startLine": 1,
+        "startChar": 49,
+        "endLine": 1,
+        "endChar": 55
+      },
+      "revId": "0789f0b63f189a4320b4043344657694f2d68682",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d95f5e5a_d5fe1e8d",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-09-12T10:01:33Z",
+      "side": 1,
+      "message": "need to remove these and it\u0027s usage below.",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 35
+      },
+      "revId": "0789f0b63f189a4320b4043344657694f2d68682",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0fcb66c2_dea8497d",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-09-12T10:01:33Z",
+      "side": 1,
+      "message": "this will go once alphatag is removed from Release:, also update commit message.",
+      "range": {
+        "startLine": 164,
+        "startChar": 56,
+        "endLine": 164,
+        "endChar": 67
+      },
+      "revId": "0789f0b63f189a4320b4043344657694f2d68682",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
