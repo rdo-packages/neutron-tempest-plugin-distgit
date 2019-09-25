@@ -77,10 +77,8 @@ Requires:   python%{pyver}-six  >= 1.10.0
 Requires:   python%{pyver}-tempest >= 1:18.0.0
 Requires:   python%{pyver}-testtools >= 1.8.0
 Requires:   python%{pyver}-testscenarios >= 0.5.0
-
-%if %{pyver} == 2
-Requires:   python-ipaddress >= 1.0.17
-%endif
+Requires:   python%{pyver}-testscenarios >= 0.5.0
+Requires:   python%{pyver}-tenacity >= 3.2.1
 
 %description -n python%{pyver}-%{service}-tests-tempest
 %{common_desc}
