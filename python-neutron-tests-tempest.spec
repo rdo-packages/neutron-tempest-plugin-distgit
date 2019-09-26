@@ -75,6 +75,7 @@ Requires:   python%{pyver}-paramiko >= 2.0.0
 Requires:   python%{pyver}-pbr >= 3.3.1
 Requires:   python%{pyver}-six  >= 1.10.0
 Requires:   python%{pyver}-tempest >= 1:18.0.0
+# FIXME(jcapitao): system version is stuck to 1.8.0 for testtools
 Requires:   python%{pyver}-testtools >= 1.8.0
 Requires:   python%{pyver}-testscenarios >= 0.5.0
 Requires:   python%{pyver}-tenacity >= 3.2.1
