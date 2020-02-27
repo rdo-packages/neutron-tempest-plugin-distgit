@@ -1,0 +1,9 @@
+Code-Review+1: Nate Johnston <nate.johnston@redhat.com>
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Workflow+1: Alfredo Moralejo <amoralej@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Thu, 27 Feb 2020 18:49:29 +0000
+Reviewed-on: https://review.rdoproject.org/r/25434
+Project: openstack/neutron-tempest-plugin-distgit
+Branch: refs/heads/train-rdo
