@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "723fcb80_85f699b6",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-03-30T09:16:23Z",
+      "side": 1,
+      "message": "please change to 1.2 here so it get\u0027s rebuild different from train. asking 1.2 here so 1.1 can be used for rocky.",
+      "range": {
+        "startLine": 27,
+        "startChar": 12,
+        "endLine": 27,
+        "endChar": 13
+      },
+      "revId": "2d8e9ed56386fd22e519c17f67acae337b9a0387",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a31f2195_6f18639d",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-03-30T09:16:23Z",
+      "side": 1,
+      "message": "1.2",
+      "range": {
+        "startLine": 128,
+        "startChar": 64,
+        "endLine": 128,
+        "endChar": 65
+      },
+      "revId": "2d8e9ed56386fd22e519c17f67acae337b9a0387",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
