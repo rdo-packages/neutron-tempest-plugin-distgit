@@ -24,7 +24,7 @@ Additionally it provides a plugin to automatically load these tests into Tempest
 
 Name:       python-%{service}-tests-tempest
 Version:    0.9.0
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    Tempest Integration of Neutron Project
 License:    ASL 2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
@@ -59,6 +59,7 @@ Requires:   python%{pyver}-netaddr >= 0.7.19
 %endif
 Requires:   python%{pyver}-debtcollector >= 1.2.0
 Requires:   python%{pyver}-neutron-lib >= 1.25.0
+Requires:   python%{pyver}-os-ken >= 0.3.0
 Requires:   python%{pyver}-oslo-config >= 2:5.2.0
 Requires:   python%{pyver}-oslo-log >= 3.36.0
 Requires:   python%{pyver}-oslo-serialization >= 2.18.0
@@ -122,6 +123,9 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Mon Mar 30 2020 Yatin Karel <ykarel@redhat.com> - 0.9.0-2
+- Add dep on os-ken explicitly
+
 * Mon Mar 23 2020 RDO <dev@lists.rdoproject.org> 0.9.0-1
 - Update to 0.9.0
 
