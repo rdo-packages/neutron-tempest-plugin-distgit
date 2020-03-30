@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "4611dfe9_95b27c75",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-03-30T11:28:08Z",
+      "side": 1,
+      "message": "Yes that could also be done, but for now i think we can go with this as rocky one is already merged.",
+      "parentUuid": "e1f0c854_369a4b86",
+      "range": {
+        "startLine": 27,
+        "startChar": 12,
+        "endLine": 27,
+        "endChar": 13
+      },
+      "revId": "2d8e9ed56386fd22e519c17f67acae337b9a0387",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a31f2195_6f18639d",
         "filename": "python-neutron-tests-tempest.spec",
         "patchSetId": 2
