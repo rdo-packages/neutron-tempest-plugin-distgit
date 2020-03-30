@@ -67,6 +67,7 @@ Requires:   python%{pyver}-netaddr >= 0.7.19
 %endif
 Requires:   python%{pyver}-debtcollector >= 1.2.0
 Requires:   python%{pyver}-neutron-lib >= 1.25.0
+Requires:   python%{pyver}-os-ken >= 0.3.0
 Requires:   python%{pyver}-oslo-config >= 2:5.2.0
 Requires:   python%{pyver}-oslo-log >= 3.36.0
 Requires:   python%{pyver}-oslo-serialization >= 2.18.0
