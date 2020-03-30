@@ -15,7 +15,7 @@ Additionally it provides a plugin to automatically load these tests into Tempest
 
 Name:       python-%{service}-tests-tempest
 Version:    0.9.0
-Release:    1%{?dist}
+Release:    1.1%{?dist}
 Summary:    Tempest Integration of Neutron Project
 License:    ASL 2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
@@ -108,6 +108,9 @@ Requires:   python3-testscenarios >= 0.5.0
 # Remove bundled egg-info
 rm -rf %{module}.egg-info
 
+# Remove stadium projects tests that were moved in later releases
+rm -rf %{module}/{bgpvpn,fwaas,neutron_dynamic_routing,sfc,vpnaas}
+
 %build
 %if 0%{?with_python3}
 %py3_build
@@ -148,6 +151,9 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Mon Mar 30 2020 Bernard Cafarelli <bcafarel@redhat.com> 0.9.0-1.1
+- Remove stadium projects tests that were moved in later releases
+
 * Mon Mar 23 2020 RDO <dev@lists.rdoproject.org> 0.9.0-1
 - Update to 0.9.0
 
