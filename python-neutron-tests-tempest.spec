@@ -14,8 +14,8 @@ This package contains Tempest tests to cover the Neutron project. \
 Additionally it provides a plugin to automatically load these tests into Tempest.
 
 Name:       python-%{service}-tests-tempest
-Version:    0.9.0
-Release:    1%{?dist}
+Version:    0.5.0
+Release:    0.2%{?dist}
 Summary:    Tempest Integration of Neutron Project
 License:    ASL 2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
@@ -148,9 +148,6 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
-* Mon Mar 23 2020 RDO <dev@lists.rdoproject.org> 0.9.0-1
-- Update to 0.9.0
-
 * Wed Aug 14 2019 RDO <dev@lists.rdoproject.org> 0.5.0-0.2
 - Update to 0.5.0
 
