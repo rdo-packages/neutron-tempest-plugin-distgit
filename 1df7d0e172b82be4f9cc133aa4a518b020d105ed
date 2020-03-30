@@ -1,0 +1,9 @@
+Code-Review+2: Jakub Libosvar <jakub.libosvar@gmail.com>
+Code-Review+2: Javier Peña <jpena@redhat.com>
+Workflow+1: Javier Peña <jpena@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Mon, 30 Mar 2020 10:27:14 +0000
+Reviewed-on: https://review.rdoproject.org/r/26155
+Project: openstack/neutron-tempest-plugin-distgit
+Branch: refs/heads/rpm-master
