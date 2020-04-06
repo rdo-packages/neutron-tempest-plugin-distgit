@@ -46,6 +46,30 @@
       "revId": "cf60ec4c5f215152d111166e4ef91bcd8b609cab",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "06755d0a_00f3746f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 197
+      },
+      "writtenOn": "2020-04-06T11:53:15Z",
+      "side": 1,
+      "message": "That would be a nice feature enhancement but yes for now we have branched tests in RDO - as branches get older compatibility gets worse as tempest is run from old version, not master in virtualenv (which is what caused the stein/rocky failures)",
+      "parentUuid": "e8f4be05_4e8576bf",
+      "range": {
+        "startLine": 9,
+        "startChar": 20,
+        "endLine": 9,
+        "endChar": 29
+      },
+      "revId": "cf60ec4c5f215152d111166e4ef91bcd8b609cab",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
