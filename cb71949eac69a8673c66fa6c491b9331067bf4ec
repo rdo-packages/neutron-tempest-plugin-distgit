@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eb85142b_68891083",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 382
+      },
+      "writtenOn": "2020-04-20T13:50:05Z",
+      "side": 1,
+      "message": "nit: tox.ini upstream also has a -W (turn warnings into errors), guess it doesn\u0027t really matter downstream.",
+      "revId": "cb71949eac69a8673c66fa6c491b9331067bf4ec",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
