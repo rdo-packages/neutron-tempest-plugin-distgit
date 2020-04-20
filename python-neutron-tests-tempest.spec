@@ -107,7 +107,7 @@ rm -rf %{module}.egg-info
 
 # Generate Docs
 %if 0%{?with_doc}
-%{pyver_bin} setup.py build_sphinx -b html
+sphinx-build -W -b html doc/source doc/build/html
 # remove the sphinx build leftovers
 rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
