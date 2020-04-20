@@ -16,6 +16,24 @@
       "revId": "cb71949eac69a8673c66fa6c491b9331067bf4ec",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5b9a1bbf_f241a83d",
+        "filename": "python-neutron-tests-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-04-20T14:29:30Z",
+      "side": 1,
+      "message": "We should keep the same as upstream unless and until there is some issue during packaging.",
+      "parentUuid": "eb85142b_68891083",
+      "revId": "cb71949eac69a8673c66fa6c491b9331067bf4ec",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
