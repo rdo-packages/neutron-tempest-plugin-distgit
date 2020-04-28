@@ -1,0 +1,8 @@
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Workflow+1: Alfredo Moralejo <amoralej@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Tue, 28 Apr 2020 17:37:07 +0000
+Reviewed-on: https://review.rdoproject.org/r/26974
+Project: openstack/neutron-tempest-plugin-distgit
+Branch: refs/heads/rpm-master
