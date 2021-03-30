@@ -62,6 +62,7 @@ Requires:   python3-tempest >= 1:18.0.0
 Requires:   python3-testtools >= 2.2.0
 Requires:   python3-testscenarios >= 0.5.0
 Requires:   python3-tenacity >= 3.2.1
+Requires:   nmap
 
 %description -n python3-%{service}-tests-tempest
 %{common_desc}
