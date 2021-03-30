@@ -78,6 +78,7 @@ Requires:   python%{pyver}-tempest >= 1:18.0.0
 Requires:   python%{pyver}-testtools >= 1.8.0
 Requires:   python%{pyver}-testscenarios >= 0.5.0
 Requires:   python%{pyver}-tenacity >= 3.2.1
+Requires:   nmap
 
 %description -n python%{pyver}-%{service}-tests-tempest
 %{common_desc}
