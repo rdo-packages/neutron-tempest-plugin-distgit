@@ -46,6 +46,30 @@
       "revId": "204629bd0e5d1aeaa75266184aedb2bb36ce8f40",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "682ee0a7_75630e5f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-08-25T14:00:30Z",
+      "side": 1,
+      "message": "@slawek yes patch is valid and yes it\u0027s not fixing the issue itself. Once rdoinfo patch is merged, bot proposes such reviews like done with https://review.rdoproject.org/r/c/openstack/neutron-tempest-plugin-distgit. I will merge this one and abandon the other.",
+      "parentUuid": "c0c11a93_b4a4af22",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 20
+      },
+      "revId": "204629bd0e5d1aeaa75266184aedb2bb36ce8f40",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
     }
   ]
 }
