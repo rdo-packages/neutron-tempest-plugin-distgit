@@ -22,6 +22,30 @@
       "revId": "204629bd0e5d1aeaa75266184aedb2bb36ce8f40",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c0c11a93_b4a4af22",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 534
+      },
+      "writtenOn": "2021-08-25T07:39:43Z",
+      "side": 1,
+      "message": "Done in https://review.rdoproject.org/r/c/rdoinfo/+/35105 but I think that this patch is also valid, right? Maybe it\u0027s not closing that bug but can still be here as related, correct?",
+      "parentUuid": "eb88d713_c17c4fe7",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 20
+      },
+      "revId": "204629bd0e5d1aeaa75266184aedb2bb36ce8f40",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
     }
   ]
 }
