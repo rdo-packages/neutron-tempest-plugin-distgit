@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eb88d713_c17c4fe7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-08-25T06:10:03Z",
+      "side": 1,
+      "message": "the jobs referred in the bug uses trunk repos and for that rdoinfo needs to be udpated https://github.com/redhat-openstack/rdoinfo/blob/master/tags/ussuri.yml#L424, once it\u0027s updated in rdoinfo, distgit will get\u0027s updated by bot.",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 20
+      },
+      "revId": "204629bd0e5d1aeaa75266184aedb2bb36ce8f40",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
