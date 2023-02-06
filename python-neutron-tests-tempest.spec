@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0xa63ea142678138d1bb15f2e303bdfd64dd164087
+%global sources_gpg_sign 0xa7475c5f2122fec3f90343223fe3bf5aad1080e4
 %global service neutron
 %global plugin neutron-tempest-plugin
 %global module neutron_tempest_plugin
@@ -13,7 +13,7 @@ This package contains Tempest tests to cover the Neutron project. \
 Additionally it provides a plugin to automatically load these tests into Tempest.
 
 Name:       python-%{service}-tests-tempest
-Version:    2.0.0
+Version:    2.1.0
 Release:    1%{?dist}
 Summary:    Tempest Integration of Neutron Project
 License:    ASL 2.0
@@ -128,6 +128,9 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Mon Feb 06 2023 RDO <dev@lists.rdoproject.org> 2.1.0-1
+- Update to 2.1.0
+
 * Wed Sep 28 2022 RDO <dev@lists.rdoproject.org> 2.0.0-1
 - Update to 2.0.0
 
