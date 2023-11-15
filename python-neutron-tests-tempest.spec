@@ -106,6 +106,7 @@ done
 
 # Generate Docs
 %if 0%{?with_doc}
+export PYTHONPATH=.
 %tox -e docs
 # remove the sphinx build leftovers
 rm -rf doc/build/html/.{doctrees,buildinfo}
