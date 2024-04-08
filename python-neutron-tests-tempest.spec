@@ -85,6 +85,12 @@ Summary:        Documentation for python-%{service}-tests-tempest
 
 BuildRequires:  python3-sphinx
 BuildRequires:  python3-openstackdocstheme
+BuildRequires:  python3-oslo-config
+BuildRequires:  python3-tempest
+BuildRequires:  python3-eventlet
+BuildRequires:  python3-neutron-lib
+BuildRequires:  python3-tenacity
+BuildRequires:  python3-ddt
 
 %description -n python-%{service}-tests-tempest-doc
 It contains the documentation for the Neutron tempest plugin.
@@ -107,7 +113,9 @@ rm -rf %{module}.egg-info
 
 # Generate Docs
 %if 0%{?with_doc}
-sphinx-build -W -b html doc/source doc/build/html
+sphinx-apidoc -f -o doc/source/tests neutron_tempest_plugin
+rm -rf doc/build
+sphinx-build -b html doc/source doc/build/html
 # remove the sphinx build leftovers
 rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
