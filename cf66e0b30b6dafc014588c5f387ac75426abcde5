@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d842952_df1e179a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-04-08T13:05:59Z",
+      "side": 1,
+      "message": "We prefer to not cherry pick pyproject-rpm-master for consistency with the rest of antelope specs, we decided to implement it from bobcat. We can antelope-only the patches that we need to make it work.",
+      "revId": "cf66e0b30b6dafc014588c5f387ac75426abcde5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
