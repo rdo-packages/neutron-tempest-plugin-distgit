@@ -107,6 +107,8 @@ rm -rf %{module}.egg-info
 
 # Generate Docs
 %if 0%{?with_doc}
+sphinx-apidoc -f -o doc/source/tests neutron_tempest_plugin
+rm -rf doc/build
 sphinx-build -W -b html doc/source doc/build/html
 # remove the sphinx build leftovers
 rm -rf doc/build/html/.{doctrees,buildinfo}
