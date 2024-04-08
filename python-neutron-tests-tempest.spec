@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x815AFEC729392386480E076DCC0DFE2D21C023C9
+%global sources_gpg_sign 0x815afec729392386480e076dcc0dfe2d21c023c9
 %global service neutron
 %global plugin neutron-tempest-plugin
 %global module neutron_tempest_plugin
