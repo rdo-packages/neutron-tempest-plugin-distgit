@@ -16,6 +16,23 @@
       "message": "recheck",
       "revId": "4bf2ca4f38172563aa2af2e45bb0c0489ffc2d35",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b6eec7c_9ba202bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 580
+      },
+      "writtenOn": "2024-09-10T12:40:51Z",
+      "side": 1,
+      "message": "I think the CI is passing now and we can abandon this patch.",
+      "revId": "4bf2ca4f38172563aa2af2e45bb0c0489ffc2d35",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
