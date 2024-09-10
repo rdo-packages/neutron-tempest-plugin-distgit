@@ -128,3 +128,4 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/openstack/neutron-tempest-plugin/commit/86ddcd2fa5822c556e2e224c231cd82698535b15
