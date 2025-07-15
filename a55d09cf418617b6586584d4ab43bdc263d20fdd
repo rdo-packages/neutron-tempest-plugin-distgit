@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47a0abc6_906a9461",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 141
+      },
+      "writtenOn": "2025-07-15T08:21:03Z",
+      "side": 1,
+      "message": "recheck\n\nThe error happened while trying to download from the dnf repositories.",
+      "revId": "a55d09cf418617b6586584d4ab43bdc263d20fdd",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
