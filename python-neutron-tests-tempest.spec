@@ -26,6 +26,8 @@ Source101:        http://tarballs.openstack.org/%{plugin}/%{plugin}-%{upstream_v
 Source102:        https://releases.openstack.org/_static/%{sources_gpg_sign}.txt
 %endif
 
+Patch0001: 0001-Randomize-second-octet-to-avoid-test-vlan-IP-collisi.patch
+
 BuildArch:  noarch
 
 # Required for tarball sources verification

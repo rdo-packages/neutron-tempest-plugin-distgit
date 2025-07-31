@@ -1,0 +1,36 @@
+From fb579edc99836966ecc41938c51844189ab00951 Mon Sep 17 00:00:00 2001
+From: Renjing Xiao <rxiao@redhat.com>
+Date: Wed, 28 May 2025 09:33:05 +0100
+Subject: [PATCH] Randomize second octet to avoid test vlan IP collision
+
+The VlanTransparencyTest tests fail when the randomly chosen vlan
+IP gets assigned to 192.168.122.x/24. This patch replaces the
+fixed second octet with the same randomized value as the third
+octet to avoid conflicts.
+
+Related-Bug: OSPRH-11751
+Closes-Bug: #2112541
+Change-Id: I3f4ba272f44f2fd3132741ccc30b4442064dabdd
+(cherry picked from commit dba35f1a2ad6a56e77b939d9ed86d919f067211c)
+---
+ neutron_tempest_plugin/scenario/test_vlan_transparency.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/neutron_tempest_plugin/scenario/test_vlan_transparency.py b/neutron_tempest_plugin/scenario/test_vlan_transparency.py
+index d9a529c2..a0f7b9e7 100644
+--- a/neutron_tempest_plugin/scenario/test_vlan_transparency.py
++++ b/neutron_tempest_plugin/scenario/test_vlan_transparency.py
+@@ -116,8 +116,8 @@ class VlanTransparencyTest(base.BaseTempestTestCase):
+     def _test_basic_vlan_transparency_connectivity(
+             self, port_security=True, use_allowed_address_pairs=False):
+         vlan_tag = data_utils.rand_int_id(start=MIN_VLAN_ID, end=MAX_VLAN_ID)
+-        vlan_ipmask_template = '192.168.%d.{ip_last_byte}/24' % (vlan_tag %
+-                                                                 256)
++        vtag = vlan_tag % 256
++        vlan_ipmask_template = '192.%d.%d.{ip_last_byte}/24' % (vtag, vtag)
+         vms = []
+         vlan_ipmasks = []
+         floating_ips = []
+-- 
+2.50.1
+
